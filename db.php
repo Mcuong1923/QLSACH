@@ -5,6 +5,7 @@ $user = 'avnadmin';
 $pass = 'AVNS_TsuvVXHushW9LQ0hdqo';
 $port = 13805;
 $ssl_ca = 'C:/Users/Admin/Downloads/ca.pem'; // Đường dẫn đến CA certificate
+$uri:mysql://avnadmin:AVNS_TsuvVXHushW9LQ0hdqo@mysql-17f72f2a-nvancuong792.l.aivencloud.com:13805/defaultdb?ssl-mode=REQUIRED;
 
 $mysqli = new mysqli();
 $mysqli->ssl_set(NULL, NULL, $ssl_ca, NULL, NULL);
